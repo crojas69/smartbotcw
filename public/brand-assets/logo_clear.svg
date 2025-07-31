@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <title>Smarbot IABOT Logo Clear</title>
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="256" cy="256" r="256" fill="transparent"/>
+  <text x="256" y="256" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="40" fill="#EF731A" font-weight="bold">Smarbot IABOT</text>
+ </g>
+</svg>

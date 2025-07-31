@@ -1,0 +1,6 @@
+# List of the premium features in EE edition
+
+  default:
+    features:
+      branding:
+        enabled: true

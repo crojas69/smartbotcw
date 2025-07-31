@@ -1,0 +1,23 @@
+// Custom Colors for Branding
+// This file contains custom color variables that can be easily modified
+
+$custom-primary: #EF731A;  // Orange color
+$custom-primary-dark: #000000;  // Black color
+$custom-primary-light: #F09209;  // Yellow color
+
+$custom-secondary: #6e6f73;  // Gray color
+$custom-success: #44ce4b;
+$custom-warning: #F09209;  // Yellow color
+$custom-alert: #ff382d;
+
+// Apply custom colors to the existing variables
+// This will override the default colors with our custom ones
+:root {
+  --custom-primary: #{$custom-primary};
+  --custom-primary-dark: #{$custom-primary-dark};
+  --custom-primary-light: #{$custom-primary-light};
+}
+
+// You can also directly override the existing color variables if needed
+// $color-woot: $custom-primary !default;
+// $primary-color: $custom-primary !default;

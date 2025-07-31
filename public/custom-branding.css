@@ -1,0 +1,33 @@
+/* Custom Branding CSS */
+/* This file contains custom CSS for branding that can be loaded through configuration */
+
+:root {
+  --brand-primary: #EF731A;
+  --brand-primary-dark: #000000;
+  --brand-primary-light: #F09209;
+  --brand-secondary: #6e6f73;
+  --brand-success: #44ce4b;
+  --brand-warning: #F09209;
+  --brand-alert: #ff382d;
+}
+
+/* Apply custom colors to some common elements */
+.btn {
+  background-color: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+
+.btn:hover {
+  background-color: var(--brand-primary-dark);
+  border-color: var(--brand-primary-dark);
+}
+
+/* Custom styles for the conversation panel */
+.conversation-panel {
+  background-color: var(--brand-primary-light);
+}
+
+/* Custom styles for headers */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--brand-primary);
+}
